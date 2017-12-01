@@ -1,0 +1,25 @@
+secret_key: "RANDOM-STRING"  # Random keys
+nobroadcast: False           # Safety mode
+
+mail_host: "SERVER:589"
+mail_user: "user"
+mail_pass: "password"
+mail_from: "noreply@faucet.org"
+
+admins:
+ - adminA@example.com
+ - adminB@example.com
+
+minIPAge: 300  # How long in secs does an IP need to wait to register a new account?
+witness_url: "wss://node.testnet.bitshares.eu"
+
+registrar: "u-tech"
+default_referrer: "u-tech"
+referrer_percent: 50  # in percent
+wif: "5KBrP5YeJgR2PiVHKANc89BXCbR84N5TvLz7N29n7FZg7irhqK9"
+
+balance_mailthreshold: 500  # if balances goes below this, you will be notified
+
+core_asset: "TEST"
+donation_amount: 10000
+donation_asset: TEST
